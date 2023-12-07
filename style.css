@@ -1,0 +1,618 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: #616161;
+}
+
+header {
+    background-color: #616161;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 15px; 
+    background-color: #313131; 
+    padding: 5px; 
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #fff; 
+}
+
+
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/OMGITSOTHER KESHI.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    border-radius: 20px;
+    border-color: #111;
+}
+
+
+.vert-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h2 {
+    font-family: sans;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgb(167, 166, 166);
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #111;
+    font-style: italic;
+    line-height: 70px;
+}
+
+
+.indie-index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/reaper.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    border-radius: 20px;
+    border-color: #111;
+}
+
+
+.vert-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.indie-index-banner h2 {
+    font-family: sans;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.indie-index-banner h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgb(167, 166, 166);
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #111;
+    font-style: italic;
+    line-height: 70px;
+}
+
+
+.rnb-index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/skykeshi.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    border-radius: 20px;
+    border-color: #111;
+}
+
+.rnb-index-banner .vert-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rnb-index-banner h2 {
+    font-family: sans;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.rnb-index-banner h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgb(167, 166, 166);
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #111;
+    font-style: italic;
+    line-height: 70px;
+}
+
+
+
+.footer {
+    background-color: #111;
+    width: calc(100% - 40px); 
+    margin-top: 20px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.web-table {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.web-table h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+th, td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #ddd;
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: center;
+    font-weight: 600; /* Increase font weight for better visibility */
+}
+
+th {
+    background-color: #333; /* Dark background color for header cells */
+    color: #fff;
+}
+
+tr {
+    background-color: #f8f8f8b4; /* Alternate row color */
+}
+
+tr:hover {
+    background-color: #f0f0f0;
+}
+
+.music-player {
+    background-color: #222; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.indie-song {
+    background-color: #f44336; 
+    color: #fff; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+.pop-song {
+    background-color: #e9bcaa; 
+    color: #4c2828; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px auto;
+    display: block;
+}
+
+
+audio::-webkit-media-controls-panel {
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 8px; 
+    padding: 10px;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #7c7c7c; 
+    color: #fff; 
+    border-radius: 50%; 
+    padding: 8px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #444; 
+}
+
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+.indiepop-description {
+    background-color: #333; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    font-size: 25px;
+}
+
+.description-container {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.indiepop-description h2,
+.indiepop-description h3 {
+    color: #fff; 
+}
+
+.indiepop-description p {
+    color: #ddd; 
+}
+
+.indiepop-description ol {
+    list-style: none;
+    padding: 0;
+}
+
+.indiepop-description li {
+    margin-bottom: 8px;
+    color: #f44336; 
+}
+
+
+.rnb-description {
+    background-color: #333; 
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.description-container {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.rnb-description h2,
+.rnb-description h3 {
+    color:#00ffff
+}
+
+.rnb-description p {
+    color: #ddd; 
+}
+
+.rnb-description ol {
+    list-style: none;
+    padding: 0;
+}
+
+.rnb-description li {
+    margin-bottom: 8px;
+    color: #36f4f1; 
+}
+.indie-song {
+    background-color: #f44336; 
+    color: #fff; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.rnb-song {
+    background-color: #36d8f4; 
+    color: #dcdcdc; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.pop-index-banner h2 {
+    font-family: sans;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.pop-index-banner h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgb(167, 166, 166);
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #111;
+    font-style: italic;
+    line-height: 70px;
+}
+
+.pop-description h2,
+.indiepop-description h2 {
+    
+    text-align: center;
+    color: #e15b5b;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pop-description p,
+.indiepop-description p {
+    
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pop-description h3,
+.indiepop-description h3 {
+    
+    text-align: center;
+    color: #d06060;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pop-description ol,
+.indiepop-description ol {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pop-description li,
+.indiepop-description li {
+    
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(249, 187, 187);
+}
+.pop-index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/FIJIBLUE.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    border-radius: 20px;
+    border-color: #111;
+}
+
+.web-table tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .web-table tbody tr:hover {
+    background-color: #f0f0f0; 
+  }
+  .contact-form {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-form h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #e55b00;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header .header-brand {
+        font-size: 32px;
+    }
+
+    .index-banner h2 {
+        font-size: 60px;
+    }
+
+    .index-banner h1 {
+        font-size: 28px;
+        line-height: 2;
+    }
+
+    .web-table h2 {
+        font-size: 36px;
+    }
+
+    table {
+        font-size: 18px;
+    }
+}
+
+body {
+    font-size: 16px; 
+}
+
+header {
+    height: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 10px;
+    list-style: none;
+}
+
+header .header-brand {
+    font-size: 24px;
+}
+
+nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-page {
+    background-color: #616161;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form,
+.company-info {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    flex: 0 0 48%;
+}
+
+.contact-form h2,
+.company-info h2 {
+    color: #fff;
+}
+
+.contact-form label,
+.company-info p {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #e15b5b;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff0000;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #e55c00;
+}
